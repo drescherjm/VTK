@@ -90,8 +90,7 @@ void vtkInteractorStyleImage::StartWindowLevel()
     }
   this->StartState(VTKIS_WINDOW_LEVEL);
 
-  // Get the last (the topmost) image
-  this->SetCurrentImageToNthImage(-1);
+
 
   if (this->HandleObservers &&
       this->HasObserver(vtkCommand::StartWindowLevelEvent))
@@ -100,6 +99,9 @@ void vtkInteractorStyleImage::StartWindowLevel()
     }
   else
     {
+    // Get the last (the topmost) image
+    this->SetCurrentImageToNthImage(-1);
+    
     if (this->CurrentImageProperty)
       {
       vtkImageProperty *property = this->CurrentImageProperty;
