@@ -12,10 +12,10 @@
 #=============================================================================
 
 # KWSys version date year component.  Format is CCYY.
-SET(KWSYS_DATE_STAMP_YEAR  2012)
+SET(KWSYS_DATE_STAMP_YEAR  2014)
 
 # KWSys version date month component.  Format is MM.
-SET(KWSYS_DATE_STAMP_MONTH 03)
+SET(KWSYS_DATE_STAMP_MONTH 02)
 
 # KWSys version date day component.  Format is DD.
-SET(KWSYS_DATE_STAMP_DAY   01)
+SET(KWSYS_DATE_STAMP_DAY   27)
