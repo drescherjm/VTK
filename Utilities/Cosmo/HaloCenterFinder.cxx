@@ -51,6 +51,7 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <iomanip>
 #include <set>
 #include <math.h>
+#include <algorithm>
 
 using namespace std;
 
